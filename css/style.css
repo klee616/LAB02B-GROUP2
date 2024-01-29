@@ -1,5 +1,6 @@
 * {
   --background-color: #fff;
+  font-family: 'Ubuntu';
 }
 
 a {
@@ -38,71 +39,120 @@ a {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+  background-color: #16242f;
+  color: #fff;
+  padding: 30px 0 30px;
 }
 
-.col-xl-12, .col-lg-12, .col-md-12, .col-sm-12, .col-12{
-    flex: 0 0 12;
-    width: calc(100% / 12 * 12);
+.col-xl-12,
+.col-lg-12,
+.col-md-12,
+.col-sm-12,
+.col-12 {
+  flex: 0 0 12;
+  width: calc(100% / 12 * 12);
 }
 
-.col-xl-11, .col-lg-11, .col-md-11, .col-sm-11, .col-11{
-    flex: 0 0 11;
-    width: calc(100% / 12 * 11);
+.col-xl-11,
+.col-lg-11,
+.col-md-11,
+.col-sm-11,
+.col-11 {
+  flex: 0 0 11;
+  width: calc(100% / 12 * 11);
 }
 
-.col-xl-10, .col-lg-10, .col-md-10, .col-sm-10, .col-10{
-    flex: 0 0 10;
-    width: calc(100% / 12 * 10);
+.col-xl-10,
+.col-lg-10,
+.col-md-10,
+.col-sm-10,
+.col-10 {
+  flex: 0 0 10;
+  width: calc(100% / 12 * 10);
 }
 
-.col-xl-9, .col-lg-9, .col-md-9, .col-sm-9, .col-9{
-    flex: 0 0 9;
-    width: calc(100% / 12 * 9);
+.col-xl-9,
+.col-lg-9,
+.col-md-9,
+.col-sm-9,
+.col-9 {
+  flex: 0 0 9;
+  width: calc(100% / 12 * 9);
 }
 
-.col-xl-8, .col-lg-8, .col-md-8, .col-sm-8, .col-8{
-    flex: 0 0 8;
-    width: calc(100% / 12 * 8);
+.col-xl-8,
+.col-lg-8,
+.col-md-8,
+.col-sm-8,
+.col-8 {
+  flex: 0 0 8;
+  width: calc(100% / 12 * 8);
 }
 
-.col-xl-7, .col-lg-7, .col-md-7, .col-sm-7, .col-7{
-    flex: 0 0 7;
-    width: calc(100% / 12 * 7);
+.col-xl-7,
+.col-lg-7,
+.col-md-7,
+.col-sm-7,
+.col-7 {
+  flex: 0 0 7;
+  width: calc(100% / 12 * 7);
 }
 
-.col-xl-6, .col-lg-6, .col-md-6, .col-sm-6, .col-6{
-    flex: 0 0 6;
-    width: calc(100% / 12 * 6);
+.col-xl-6,
+.col-lg-6,
+.col-md-6,
+.col-sm-6,
+.col-6 {
+  flex: 0 0 6;
+  width: calc(100% / 12 * 6);
 }
 
-.col-xl-5, .col-lg-5, .col-md-5, .col-sm-5, .col-5{
-    flex: 0 0 5;
-    width: calc(100% / 12 * 5);
+.col-xl-5,
+.col-lg-5,
+.col-md-5,
+.col-sm-5,
+.col-5 {
+  flex: 0 0 5;
+  width: calc(100% / 12 * 5);
 }
 
-.col-xl-4, .col-lg-4, .col-md-4, .col-sm-4, .col-4{
-    flex: 0 0 4;
-    width: calc(100% / 12 * 4);
+.col-xl-4,
+.col-lg-4,
+.col-md-4,
+.col-sm-4,
+.col-4 {
+  flex: 0 0 4;
+  width: calc(100% / 12 * 4);
 }
 
-.col-xl-3, .col-lg-3, .col-md-3, .col-sm-3, .col-3{
-    flex: 0 0 3;
-    width: calc(100% / 12 * 3);
+.col-xl-3,
+.col-lg-3,
+.col-md-3,
+.col-sm-3,
+.col-3 {
+  flex: 0 0 3;
+  width: calc(100% / 12 * 3);
 }
 
-.col-xl-2, .col-lg-2, .col-md-2, .col-sm-2, .col-2{
-    flex: 0 0 2;
-    width: calc(100% / 12 * 2);
+.col-xl-2,
+.col-lg-2,
+.col-md-2,
+.col-sm-2,
+.col-2 {
+  flex: 0 0 2;
+  width: calc(100% / 12 * 2);
 }
 
-.col-xl-1, .col-lg-1, .col-md-1, .col-sm-1, .col-1{
-    flex: 0 0 1;
-    width: calc(100% / 12 * 1);
+.col-xl-1,
+.col-lg-1,
+.col-md-1,
+.col-sm-1,
+.col-1 {
+  flex: 0 0 1;
+  width: calc(100% / 12 * 1);
 }
 
 @media (min-width:1140px) {
-
-  /* xl*/
   .row {
     width: 1140px;
   }
@@ -174,6 +224,10 @@ a {
 
   .row {
     width: 960px;
+  }
+
+  .row-wider {
+    width: 992px;
   }
 
 
@@ -316,7 +370,7 @@ a {
   .row {
     width: 540px;
   }
-  
+
 
   .col-sm-12 {
     flex: 0 0 12;
@@ -448,4 +502,84 @@ a {
     width: calc(100% / 12 * 1);
   }
 
+}
+
+
+
+/* Start of Header*/
+.company-name {
+  display: inline;
+}
+
+.logo {
+  display: inline;
+  width: 50px
+}
+
+/* End of Header*/
+
+/* Start of banner*/
+.banner {
+  width: 100%;
+  max-height: 250px;
+}
+
+/* End of Banner*/
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #4c4c4c;
+}
+
+.highlight {
+  color: #4bbee4;
+}
+
+/* footer */
+.person-block {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 40px;
+}
+
+.image-block{
+  padding-bottom: 30px;
+  border-bottom: 2px solid #4bbee4;
+}
+.person-image {
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.person-description {
+  display: inline-block;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #CCCCCC;
+}
+
+.person-description h2{
+  color:#fff;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.person-description p{
+
+  color:#fff;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight:100;
+  font-style: italic;
 }
