@@ -1109,7 +1109,7 @@ h4 {
     align-content: center;
     justify-content: space-between;
     align-items: flex-start;
-    column-gap: 30px;
+    row-gap: 30px;
   }
 }
 
@@ -1123,6 +1123,6 @@ h4 {
     align-content: center;
     justify-content: space-between;
     align-items: flex-start;
-    column-gap: 30px;
+    row-gap: 30px;
   }
 }
