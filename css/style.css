@@ -1100,6 +1100,28 @@ h4 {
   display: none;
 }
 
+.logo-containera{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: baseline;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.logo-containera img{
+  height: 50px;
+}
+
+
+
+@media (max-width:991px) and (min-width:720px) {
+
+.logo-containera img{
+  height: 25px;
+}
+}
+
 @media (max-width:719px) and (min-width:576px) {
 
   .thank-about-containera {
@@ -1110,6 +1132,9 @@ h4 {
     justify-content: space-between;
     align-items: flex-start;
     row-gap: 30px;
+  }
+  .logo-containera{
+    display: none;
   }
 }
 
@@ -1125,4 +1150,8 @@ h4 {
     align-items: flex-start;
     row-gap: 30px;
   }
+  .logo-containera{
+    display: none;
+  }
 }
+
