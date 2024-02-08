@@ -773,5 +773,7 @@ background-color: #00000046;
 }
 
 .arrow-right:after{
-  content:'\25BA'
+  display: flex;
+  content:'\25BA';
+  justify-content: end;
 }
