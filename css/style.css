@@ -772,10 +772,6 @@ background-color: #00000046;
   
 }
 
-.arrow_small_right{
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 20px 20px 0;
-  border-color: transparent rgb(150, 42, 42) transparent transparent;
+.arrow-right:after{
+  content:'\25BA'
 }
