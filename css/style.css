@@ -524,7 +524,11 @@ a {
 
 .logo {
   display: inline;
-  width: 50px
+  width: 50px;
+  height: 10px;
+  width: 10px;
+  padding-left: 5px;
+  
 }
 
 /* End of Header*/
@@ -730,6 +734,7 @@ h4 {
 .nav-menu {
   background-color: rgb(51, 51, 51);
   color: rgb(252, 252, 252);
+  
 }
 
 .nav-menu-list{
@@ -750,6 +755,7 @@ background-color: #00000046;
 .bg1{
   background-color: #127a3d;
   width: 40%;
+  ;
 }
 .bg2{
   background-color: #eea60b;
@@ -773,7 +779,42 @@ background-color: #00000046;
 }
 
 .arrow-right:after{
-  display: flex;
   content:'\25BA';
-  justify-content: end;
+  
+}
+
+
+.icon{
+  display: flex;
+  border-radius: 50%;
+  background-color: #a9ac1f;
+  margin-left: 30px;
+  margin-top: 5px;
+  padding: 4px;
+}
+.child1{
+  display: flex;
+  border-radius: 50%;
+  background-color: #2c2c1f;
+  margin-left: 30px;
+  margin-top: 5px;
+  padding: 4px;
+}
+
+.child2{
+  display: flex;
+  border-radius: 50%;
+  background-color: #c22f0a;
+  margin-left: 30px;
+  margin-top: 5px;
+  padding: 4px;
+}
+
+.child3{
+  display: flex;
+  border-radius: 50%;
+  background-color: #0a94d4;
+  margin-left: 30px;
+  margin-top: 5px;
+  padding: 4px;
 }
