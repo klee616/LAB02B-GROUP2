@@ -7,10 +7,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 .row-border {
   width: 100vw;
   background-color: #4c4c4c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
 .row {
   display: flex;
   flex-direction: row;
@@ -528,15 +533,15 @@ a {
   height: 10px;
   width: 10px;
   padding-left: 5px;
-  
+
 }
 
 /* End of Header*/
 
 /* Start of banner*/
 .banner {
-  width: 100%;
-  max-height: 250px;
+width: 100%;
+max-height: 250px;
 }
 
 /* End of Banner*/
@@ -545,7 +550,7 @@ h2,
 h3,
 h4 {
   text-align: center;
-  color: #4c4c4c;
+  color: #000000;
 }
 
 .highlight {
@@ -734,10 +739,10 @@ h4 {
 .nav-menu {
   background-color: rgb(51, 51, 51);
   color: rgb(252, 252, 252);
-  
+
 }
 
-.nav-menu-list{
+.nav-menu-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -748,43 +753,44 @@ h4 {
 
 /* Banner */
 
-.banner{
-background-color: #00000046;
+.banner {
+  background-color: #ff050546;
 }
 
-.bg1{
+.bg1 {
   background-color: #127a3d;
   width: 40%;
   ;
 }
-.bg2{
+
+.bg2 {
   background-color: #eea60b;
   width: 40%;
 }
 
-.bg3{
+.bg3 {
   background-color: #ec1313;
   width: 40%;
 }
 
-.bg4{
+.bg4 {
   background-color: #09a6e4;
   width: 40%;
 }
 
-.bg5{
+.bg5 {
   background-color: #1779e9;
   width: 40%;
-  
+
 }
 
-.arrow-right:after{
-  content:'\25BA';
-  
+.arrow-right:after {
+  content: '\25BA';
+
 }
 
 
-.icon{
+.icon {
   display: flex;
   border-radius: 50%;
   background-color: #a9ac1f;
@@ -792,7 +798,8 @@ background-color: #00000046;
   margin-top: 5px;
   padding: 4px;
 }
-.child1{
+
+.child1 {
   display: flex;
   border-radius: 50%;
   background-color: #2c2c1f;
@@ -801,7 +808,7 @@ background-color: #00000046;
   padding: 4px;
 }
 
-.child2{
+.child2 {
   display: flex;
   border-radius: 50%;
   background-color: #c22f0a;
@@ -810,7 +817,7 @@ background-color: #00000046;
   padding: 4px;
 }
 
-.child3{
+.child3 {
   display: flex;
   border-radius: 50%;
   background-color: #0a94d4;
@@ -818,3 +825,17 @@ background-color: #00000046;
   margin-top: 5px;
   padding: 4px;
 }
+
+.metroclics {
+ display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 100%;
+  margin-right: 60px;
+}
+
+.menu{
+  padding-right: 50px;
+}
+
