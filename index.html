@@ -33,7 +33,7 @@
       </div>
       <div class="col-lg-hidden col-xl-hidden col-md-hidden col-sm-8 col-8">
         <a href="#menu" class="menu-icon2">
-          &#9776; 
+          &#9776;
         </a>
       </div>
       <div class="col-lg-8 col-md-8 col-sm-hidden col-hidden">
@@ -78,7 +78,14 @@
   <main class="page-main">
     <div class="row">
       <div class="col-xl-12 col-lg-12 col-md-12  col-sm-hidden col-hidden">
-        <img src="./img/placeholder.svg" class="banner" />
+        <div class="bannerHolder">
+          <img src="./img/placeholder.svg" class="banner" />
+          <div class="btn-1"><img src="./img/placeholder.svg" width="30" height="30"></div>
+          <div class="btn-2"><img src="./img/placeholder.svg" width="30" height="30"></div>
+          <div class="title-style-1">Metro Style</div>
+          <div class="title-style-2">Retina Ready</div>
+          <div class="title-style-3">Responsive Design</div>
+        </div>
       </div>
     </div>
 
@@ -318,11 +325,11 @@
       <div class="thank-about-containera">
         <div class="article-containera">
           <div class="article">
-            <div class="article-title">
+            <div class="article-title" id="articleTitle1" onclick="changeArticle(1)">
               <h3>Sample Accordion Menu </h3>
               <img src="./img/add.svg" class="article-image" />
             </div>
-            <div class="article-information">
+            <div class="article-information" id="articleContent1">
               <div class="article-image">
                 <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
@@ -336,11 +343,11 @@
 
 
           <div class="article">
-            <div class="article-title">
+            <div class="article-title" id="articleTitle2" onclick="changeArticle(2)">
               <h3>Sample Accordion Menu </h3>
               <img src="./img/add.svg" class="article-image" />
             </div>
-            <div class="article-information hidden-content">
+            <div class="article-information hidden-content" id="articleContent2">
               <div class="article-image">
                 <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
@@ -354,11 +361,11 @@
 
 
           <div class="article">
-            <div class="article-title">
+            <div class="article-title" id="articleTitle3" onclick="changeArticle(3)">
               <h3>Sample Accordion Menu </h3>
               <img src="./img/add.svg" class="article-image" />
             </div>
-            <div class="article-information hidden-content">
+            <div class="article-information hidden-content" id="articleContent3">
               <div class="article-image">
                 <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
@@ -375,9 +382,10 @@
         <div class="tab-containera">
 
           <div class="tab-bar tab-black">
-            <button class="tab-bar-item tab-button tab-bar-item-active" onclick="">Tab 1</button>
-            <button class="tab-bar-item tab-button" onclick="">Tab 2</button>
-            <button class="tab-bar-item tab-button" onclick="">Tab 3</button>
+            <button class="tab-bar-item tab-button tab-bar-item-active" onclick="changeTab(1)" id="tabBtn1">Tab
+              1</button>
+            <button class="tab-bar-item tab-button" onclick="changeTab(2)" id="tabBtn2">Tab 2</button>
+            <button class="tab-bar-item tab-button" onclick="changeTab(3)" id="tabBtn3">Tab 3</button>
           </div>
 
           <div id="tab1" class="tab-content active">
@@ -421,6 +429,8 @@
 
 
           <div id="tab2" class="tab-content">
+            Tab content 2
+
             <div class="tab-row">
               <div class="img">
                 <img src="./img/placeholder.svg" class="tab-content-img" />
@@ -429,38 +439,38 @@
                 Here is a description.Here is a description.Here is a description.Here is a
                 description.Here is a description.
               </div>
-              <div class="tab-row">
-                <div class="img">
-                  <img src="./img/placeholder.svg" class="tab-content-img" />
-                </div>
-                <div class="tab-description">
-                  Here is a description.Here is a description.Here is a description.Here is a
-                  description.Here is a description.
-                </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
-              <div class="tab-row">
-                <div class="img">
-                  <img src="./img/placeholder.svg" class="tab-content-img" />
-                </div>
-                <div class="tab-description">
-                  Here is a description.Here is a description.Here is a description.Here is a
-                  description.Here is a description.
-                </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
               </div>
-              <div class="tab-row">
-                <div class="img">
-                  <img src="./img/placeholder.svg" class="tab-content-img" />
-                </div>
-                <div class="tab-description">
-                  Here is a description.Here is a description.Here is a description.Here is a
-                  description.Here is a description.
-                </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
               </div>
             </div>
           </div>
-
-
           <div id="tab3" class="tab-content">
+            Tab content 3
+
             <div class="tab-row">
               <div class="img">
                 <img src="./img/placeholder.svg" class="tab-content-img" />
@@ -469,35 +479,36 @@
                 Here is a description.Here is a description.Here is a description.Here is a
                 description.Here is a description.
               </div>
-              <div class="tab-row">
-                <div class="img">
-                  <img src="./img/placeholder.svg" class="tab-content-img" />
-                </div>
-                <div class="tab-description">
-                  Here is a description.Here is a description.Here is a description.Here is a
-                  description.Here is a description.
-                </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
-              <div class="tab-row">
-                <div class="img">
-                  <img src="./img/placeholder.svg" class="tab-content-img" />
-                </div>
-                <div class="tab-description">
-                  Here is a description.Here is a description.Here is a description.Here is a
-                  description.Here is a description.
-                </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
               </div>
-              <div class="tab-row">
-                <div class="img">
-                  <img src="./img/placeholder.svg" class="tab-content-img" />
-                </div>
-                <div class="tab-description">
-                  Here is a description.Here is a description.Here is a description.Here is a
-                  description.Here is a description.
-                </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -596,7 +607,7 @@
         <div class="footer-card">
           <h3 class="footer-header-1 footer-bottom-style-4">Newsletter</h3>
           <div class="arrow-down border-top-color-style-4"></div>
-          <div class="description">
+          <div class="description2">
             <p>Minions Ipsum potatooo potatoooo uuhhh.
               Chasy poulet tlkka masla JiJi wilil hahaha po kass tulalloo potatoo. bee do bee do bee do chasy tl aamoo!
             </p>
