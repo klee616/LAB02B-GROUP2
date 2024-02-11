@@ -540,8 +540,7 @@ a {
 
 /* Start of banner*/
 .banner {
-width: 100%;
-max-height: 250px;
+  width: 100%;
 }
 
 /* End of Banner*/
@@ -754,7 +753,7 @@ h4 {
 /* Banner */
 
 .banner {
-  background-color: #ff050546;
+  background-color: #14e95446;
 }
 
 .bg1 {
@@ -827,7 +826,7 @@ h4 {
 }
 
 .metroclics {
- display: flex;
+  display: flex;
   justify-content: flex-end;
   flex-direction: row;
   align-items: flex-end;
@@ -835,7 +834,59 @@ h4 {
   margin-right: 60px;
 }
 
-.menu{
+.menu {
   padding-right: 50px;
+}
+
+.small-icon {
+  border-style: solid;
+  padding-bottom: 3px;
+  border-color: #c0cc1b;
+
+}
+
+.small-text {
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+}
+
+.small-icon1 {
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+  border-color: #91ff01;
+}
+
+.small-icon2 {
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+  border-color: #ff2c2c;
+}
+
+.small-icon3{
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+  border-color: #0084ff;
+}
+
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.border{
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0084ff;
+  color: white;
+  
 }
 
