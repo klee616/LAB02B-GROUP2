@@ -244,7 +244,7 @@ h2 {
     width: calc(100% / 12 * 1);
   }
 
-  .col-xl-hidden{
+  .col-xl-hidden {
     display: none;
   }
 
@@ -470,7 +470,8 @@ h2 {
     flex: 0 0 1;
     width: calc(100% / 12 * 1);
   }
-  .col-sm-hidden{
+
+  .col-sm-hidden {
     display: none;
   }
 }
@@ -544,7 +545,7 @@ h2 {
     width: calc(100% / 12 * 1);
   }
 
-  .col-hidden{
+  .col-hidden {
     display: none;
   }
 }
@@ -577,7 +578,6 @@ h2 {
 /* Start of banner*/
 .banner {
   width: 100%;
-  max-height: 250px;
   position: relative;
 }
 
@@ -826,16 +826,6 @@ h4 {
 
 }
 
-
-.icon {
-  display: flex;
-  border-radius: 50%;
-  background-color: #a9ac1f;
-  margin-left: 30px;
-  margin-top: 5px;
-  padding: 4px;
-}
-
 .child1 {
   display: flex;
   border-radius: 50%;
@@ -901,7 +891,7 @@ h4 {
   border-color: #ff2c2c;
 }
 
-.small-icon3{
+.small-icon3 {
   border-style: solid;
   padding: 5px 5px 5px 5px;
   border-color: #0084ff;
@@ -917,7 +907,7 @@ h4 {
   align-items: center;
 }
 
-.border{
+.border {
   display: block;
   position: relative;
   top: 0;
@@ -925,7 +915,7 @@ h4 {
   right: 0;
   background-color: #0084ff;
   color: white;
-  
+
 }
 
 
@@ -991,7 +981,8 @@ h4 {
   width: 25px;
   height: 25px;
 }
-.menu-icon2{
+
+.menu-icon2 {
   font-size: 50px;
   color: #fff;
   display: block;
@@ -1000,7 +991,10 @@ h4 {
   float: right;
 }
 
-
+.card-image {
+  border: 5px solid;
+  padding: 20px;
+}
 
 .bg1 {
   background-color: #21c183;
@@ -1020,6 +1014,26 @@ h4 {
 
 .bg5 {
   background-color: #166ba2;
+}
+
+
+
+.border-color-1 {
+  border-color: #f8ba0d;
+}
+
+
+
+.border-color-2 {
+  border-color: #25c389;
+}
+
+.border-color-3 {
+  border-color: #ef6370;
+}
+
+.border-color-4 {
+  border-color: #1bb3da;
 }
 
 .card-style-1 {
@@ -1318,16 +1332,17 @@ h4 {
   height: 50px;
 }
 
-.description2{
+.description2 {
   color: #CCCCCC;
-    font-size: 14px;
-    text-align: left;
+  font-size: 14px;
+  text-align: left;
 }
 
-.bannerHolder{
+.bannerHolder {
   position: relative;
 }
-.title-style-1{
+
+.title-style-1 {
   border-left: #166ba2 10px solid;
   left: 150px;
   font-size: 28px;
@@ -1337,7 +1352,8 @@ h4 {
   padding: 10px 20px;
   color: #000;
 }
-.title-style-2{
+
+.title-style-2 {
   border-left: #d8605f 10px solid;
   left: 150px;
   font-size: 28px;
@@ -1346,9 +1362,10 @@ h4 {
   background: #eff5fc;
   padding: 10px 20px;
   color: #000;
-  
+
 }
-.title-style-3{
+
+.title-style-3 {
   border-left: #f8ba0d 10px solid;
   left: 150px;
   font-size: 28px;
@@ -1357,15 +1374,14 @@ h4 {
   background: #eff5fc;
   padding: 10px 20px;
   color: #000;
-  
+
 }
 
-.btn-1{
+.btn-1 {
   left: 0px;
   top: 0px;
   position: absolute;
   height: calc(100% - 45px);
-  background: rgba(0,0,0,0.5);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1373,12 +1389,12 @@ h4 {
   justify-content: center;
 
 }
-.btn-2{
+
+.btn-2 {
   right: 0px;
   top: 0px;
   position: absolute;
   height: calc(100% - 45px);
-  background: rgba(0,0,0,0.5);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1386,8 +1402,26 @@ h4 {
   justify-content: center;
 }
 
-.svg-bg{
+.svg-bg {
   background: var(--background-color);
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.cyclic {
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 0.1rem;
+
+}
+
+.image-tweet-block svg {
+  border-radius: 50%;
 }
 
 @media (max-width:991px) and (min-width:720px) {
