@@ -26,120 +26,47 @@
   <header class="page-header">
     <div class="row">
       <div class="col-lg-4 col-md-4">
-        <div class="metroclics">
-        <span class="company_name">Metroclics </span>
-        <img src="img/logo.png" class="logo">
+        <div class="logo">
+          <span class="company-name">Metroclics </span>
+          <img src="img/logo.png" class="logo-image">
+        </div>
       </div>
+      <div class="col-lg-hidden col-xl-hidden col-md-hidden col-sm-8 col-8">
+        <a href="#menu" class="menu-icon2">
+          &#9776;
+        </a>
       </div>
-
-      <div class="col-lg-8 col-md-8">
-        <div class="menu">
+      <div class="col-lg-8 col-md-8 col-sm-hidden col-hidden">
         <div class="nav-menu">
           <ul class="nav-menu-list">
             <li class="nav-menu-item bg1">
               <a href="#">
-                <img src="img/homeicon.png" alt="pages icon" width="20" height="20" class="icon child1">
-                <div style="
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                align-content: flex-end;
-                align-items: center;
-                padding: 0px 15px;
-                ">
-                  <p style="
-                font-size: 0.7rem;
-                ">Home</p>
-                  <div class="arrow-right" style="
-                font-size: 0.5rem;
-                ">
-                  </div>
-                </div>
-                
+                <i><img src="./img/placeholder.svg" class="menu-icon"></i>
+                <p>Home</p>
               </a>
             </li>
             <li class="nav-menu-item bg2">
               <a href="#">
-                <img src="img/homeicon.png" alt="pages icon" width="20" height="20" class="icon">
-                <div style="
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                align-content: flex-end;
-                align-items: center;
-                padding: 0px 15px;
-                ">
-                  <p style="
-                font-size: 0.7rem;
-                ">Pages</p>
-                  <div class="arrow-right" style="
-                font-size: 0.5rem;
-                ">
-
-                  </div>
-                </div>
-
+                <i><img src="./img/placeholder.svg" class="menu-icon"></i>
+                <p>Pages</p>
               </a>
             </li>
             <li class="nav-menu-item bg3">
               <a href="#">
-                <img src="img/meagaphone.png" alt="pages icon" width="20" height="20" class="icon child2">
-                <div style="
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                align-content: flex-end;
-                align-items: center;
-                padding: 0px 15px;
-                ">
-                  <p style="
-                font-size: 0.7rem;
-                ">Blog</p>
-                  <div class="arrow-right" style="
-                font-size: 0.5rem;
-                ">
-                  </div>
-                </div>
+                <i><img src="./img/placeholder.svg" class="menu-icon"></i>
+                <p>Blog</p>
               </a>
             </li>
             <li class="nav-menu-item bg4">
-              <div href="#">
-                <img src="img/homeicon.png" alt="pages icon" width="20" height="20" class="icon child3">
-                <div style="
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                align-content: flex-end;
-                align-items: center;
-                padding: 0px 15px;
-                ">
-                  <p style="
-                font-size: 0.7rem;
-                ">Portfoilo</p>
-                  <div class="arrow-right" style="
-                font-size: 0.5rem;
-                ">
-                  </div>
-                </div>
-                </a>
+              <a href="#">
+                <i><img src="./img/placeholder.svg" class="menu-icon"></i>
+                <p>Portfoilo</p>
+              </a>
             </li>
             <li class="nav-menu-item bg5">
-              <a href="">
-                <img src="img/homeicon.png" alt="pages icon" width="20" height="20" class="icon child3">
-                <div style="
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                align-content: flex-end;
-                align-items: center;
-                padding: 0px 15px;
-                ">
-                  <p style="
-                font-size: 0.7rem;
-                ">Mail</p>
-                  <div class="arrow-right" style="
-                font-size: 0.5rem;
-                ">
+              <a href="#">
+                <i><img src="./img/placeholder.svg" class="menu-icon"></i>
+                <p>Mail</p>
               </a>
             </li>
           </ul>
@@ -150,10 +77,15 @@
   </header>
 
   <main class="page-main">
-    <div class="row-border">
-      <div class="row">
-        <div class="col-xl-12 col-lg-12 col-md-12 ">
-          <img src="/img/Minions.jpg" class="banner"/> 
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12  col-sm-hidden col-hidden">
+        <div class="bannerHolder">
+          <img src="./img/placeholder.svg" class="banner" />
+          <div class="btn-1"><img src="./img/placeholder.svg" width="30" height="30"></div>
+          <div class="btn-2"><img src="./img/placeholder.svg" width="30" height="30"></div>
+          <div class="title-style-1">Metro Style</div>
+          <div class="title-style-2">Retina Ready</div>
+          <div class="title-style-3">Responsive Design</div>
         </div>
       </div>
     </div>
@@ -170,47 +102,57 @@
         <h2>Things That We Do</h2>
         <p class="small-text ">Ask us what we can do for you</p>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-12 texts">
-        <img src="/img/Lightbulb.png" alt="lightbulb" width="100" height="60" class="small-icon">
-        <h3>Web Solutions</h3>
-        <p class="small-text">
-          test test test test test
-          test test test test test
-          test test test test test
-          test test test test test
-        </p>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="card-style-1">
+
+          <img src="./img/placeholder.svg" class="card-style-1-image" />
+          <h3>Web Solutions</h3>
+          <p>
+            test test test test test
+            test test test test test
+            test test test test test
+            test test test test test
+          </p>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-12 texts">
-        
-          <img src="/img/Lightbulb.png" alt="lightbulb" width="100" height="60" class="small-icon1">
-        <h3>Photography</h3>
-        <p class="small-text">
-          test test test test test
-          test test test test test
-          test test test test test
-          test test test test test
-        </p>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="card-style-1">
+
+          <img src="./img/placeholder.svg" class="card-style-1-image" />
+          <h3>Photography</h3>
+          <p>
+            test test test test test
+            test test test test test
+            test test test test test
+            test test test test test
+          </p>
+        </div>
       </div>
-     
-      <div class="col-lg-3 col-md-6 col-sm-6 col-12 texts">
-        <img src="/img/Lightbulb.png" alt="lightbulb" width="100" height="60" class="small-icon2">
-        <h3>Web Development</h3>
-        <p class="small-text">
-          test test test test test
-          test test test test test
-          test test test test test
-          test test test test test
-        </p>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="card-style-1">
+
+          <img src="./img/placeholder.svg" class="card-style-1-image" />
+          <h3>Web Development</h3>
+          <p>
+            test test test test test
+            test test test test test
+            test test test test test
+            test test test test test
+          </p>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-12 texts">
-        <img src="/img/Lightbulb.png" alt="lightbulb" width="100" height="60" class="small-icon3">
-        <h3>Web Design</h3>
-        <p class="small-text">
-          test test test test test
-          test test test test test
-          test test test test test
-          test test test test test
-        </p>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="card-style-1">
+
+          <img src="./img/placeholder.svg" class="card-style-1-image" />
+          <h3>Web Design</h3>
+          <p>
+            test test test test test
+            test test test test test
+            test test test test test
+            test test test test test
+          </p>
+        </div>
       </div>
     </div>
 
@@ -219,34 +161,60 @@
         <h2>What's Up Lately</h2>
         <p  class="small-text">Read up on our latest work</p>
       </div>
-      
-      <div class="col-lg-4 col-md-6 col-sm-12 col-12 texts">
-        <figure>
-          <img src="/img/dj.png" width="300" height="200" />
-          <figcaption>
-            <h3>Title</h3>
-          </figcaption>
-          <div class="blue">
-          <p>Photographyt</p>
-          <i>Camera</i>
-        
-        </figure>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card-style-2">
+          <div class="card-style-2-image">
+            <div class="card-date">
+              <span class="day">29</span>
+              <span class="month-year">Nov, 2012</span>
+            </div>
+            <img src="./img/k3E8f.png" class="card-style-2-image" />
+          </div>
+          <div class="card-style-2-description">
+            <div class="description">
+              <h3>Sample Image Post</h3>
+              <span>Photography</span>
+            </div>
+            <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 col-12 texts">
-        <figure>
-          <img src="/img/dj.png" width="300" height="200"/>
-          <figcaption>
-            <h3>Title</h3>
-          </figcaption>
-          <p>Photographyt</p>
-          <i>Camera</i>
-        </figure>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card-style-2">
+          <div class="card-style-2-image">
+            <div class="card-date">
+              <span class="day">29</span>
+              <span class="month-year">Nov, 2012</span>
+            </div>
+            <img src="./img/k3E8f.png" class="card-style-2-image" />
+          </div>
+          <div class="card-style-2-description">
+            <div class="description">
+              <h3>Sample Image Post</h3>
+              <span>Photography</span>
+            </div>
+            <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 col-12 texts">
-        <div class="border">
-          <img src="/img/dj.png" width="300" height="200" />
-          <p>Photographyt</p>
-          <i>Camera</i>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card-style-2">
+          <div class="card-style-2-image">
+            <div class="card-date">
+              <span class="day">29</span>
+              <span class="month-year">Nov, 2012</span>
+            </div>
+            <img src="./img/k3E8f.png" class="card-style-2-image" />
+          </div>
+          <div class="card-style-2-description">
+            <div class="description">
+              <h3>Sample Image Post</h3>
+              <span>Photography</span>
+            </div>
+            <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -257,63 +225,94 @@
         <p class="description">Client happy? We are happy</p>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <a href="#" class="project">
-          <img src="#" />
-          <div class="project-description">
-            <p class="project Title">Project</p>
-            <p class="project description">Photography</p>
+        <div class="card-style-3">
+          <img src="./img/k3E8f.png" class="card-style-3-image" />
+          <div class="overlay">
+            <div class="card-style-3-description">
+              <div class="description">
+                <h3>Sample Image Post</h3>
+                <span>Photography</span>
+              </div>
+              <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+            </div>
           </div>
-        </a>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card-style-3">
+          <img src="./img/k3E8f.png" class="card-style-3-image" />
+          <div class="overlay">
+            <div class="card-style-3-description">
+              <div class="description">
+                <h3>Sample Image Post</h3>
+                <span>Photography</span>
+              </div>
+              <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <a href="#" class="project">
-          <img src="#" />
-          <div class="project-description">
-            <p class="project Title">Project</p>
-            <p class="project description">Photography</p>
+        <div class="card-style-3">
+          <img src="./img/k3E8f.png" class="card-style-3-image" />
+          <div class="overlay">
+            <div class="card-style-3-description">
+              <div class="description">
+                <h3>Sample Image Post</h3>
+                <span>Photography</span>
+              </div>
+              <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+            </div>
           </div>
-        </a>
+        </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <a href="#" class="project">
-          <img src="#" />
-          <div class="project-description">
-            <p class="project Title">Project</p>
-            <p class="project description">Photography</p>
+        <div class="card-style-3">
+          <img src="./img/k3E8f.png" class="card-style-3-image" />
+          <div class="overlay">
+            <div class="card-style-3-description">
+              <div class="description">
+                <h3>Sample Image Post</h3>
+                <span>Photography</span>
+              </div>
+              <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+            </div>
           </div>
-        </a>
+        </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <a href="#" class="project">
-          <img src="#" />
-          <div class="project-description">
-            <p class="project Title">Project</p>
-            <p class="project description">Photography</p>
+        <div class="card-style-3">
+          <img src="./img/k3E8f.png" class="card-style-3-image" />
+          <div class="overlay">
+            <div class="card-style-3-description">
+              <div class="description">
+                <h3>Sample Image Post</h3>
+                <span>Photography</span>
+              </div>
+              <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+            </div>
           </div>
-        </a>
+        </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <a href="#" class="project">
-          <img src="#" />
-          <div class="project-description">
-            <p class="project Title">Project</p>
-            <p class="project description">Photography</p>
+        <div class="card-style-3">
+          <img src="./img/k3E8f.png" class="card-style-3-image" />
+          <div class="overlay">
+            <div class="card-style-3-description">
+              <div class="description">
+                <h3>Sample Image Post</h3>
+                <span>Photography</span>
+              </div>
+              <div class="icon"><i><img src="./img/placeholder.svg" width="50" height="50"></i></div>
+            </div>
           </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <a href="#" class="project">
-          <img src="#" />
-          <div class="project-description">
-            <p class="project Title">Project</p>
-            <p class="project description">Photography</p>
-          </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>
@@ -324,109 +323,77 @@
         <h2>Thank of above</h2>
         <p class="description">Misc stuff we could not put anyplace else</p>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-        <div class="article">
-          <div class="article-title">
-            <h3>Sample Accordion Menu <i>plus</i></h3>
-          </div>
-          <div class="article-detail">
-            <div class="article-image"><img src=""></div>
-            <div class="article-title">
-              <h4>Web solution</h4>
+
+      <div class="thank-about-containera">
+        <div class="article-containera">
+          <div class="article">
+            <div class="article-title" id="articleTitle1" onclick="changeArticle(1)">
+              <h3>Sample Accordion Menu </h3>
+              <img src="./img/add.svg" class="article-image" />
             </div>
-            <div class="article-content">Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.</div>
+            <div class="article-information" id="articleContent1">
+              <div class="article-image">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="article-detail">
+                <h4>Web solution</h4>
+                <p class="article-content">Here is a description.Here is a description.Here is a description.Here is a
+                  description.Here is a description.</p>
+              </div>
+            </div>
           </div>
+
+
+          <div class="article">
+            <div class="article-title" id="articleTitle2" onclick="changeArticle(2)">
+              <h3>Sample Accordion Menu </h3>
+              <img src="./img/add.svg" class="article-image" />
+            </div>
+            <div class="article-information hidden-content" id="articleContent2">
+              <div class="article-image">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="article-detail">
+                <h4>Web solution</h4>
+                <p class="article-content">Here is a description.Here is a description.Here is a description.Here is a
+                  description.Here is a description.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="article">
+            <div class="article-title" id="articleTitle3" onclick="changeArticle(3)">
+              <h3>Sample Accordion Menu </h3>
+              <img src="./img/add.svg" class="article-image" />
+            </div>
+            <div class="article-information hidden-content" id="articleContent3">
+              <div class="article-image">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="article-detail">
+                <h4>Web solution</h4>
+                <p class="article-content">Here is a description.Here is a description.Here is a description.Here is a
+                  description.Here is a description.</p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
-        <div class="article">
-          <div class="article-title">
-            <h3>Sample Accordion Menu <i>plus</i></h3>
-          </div>
-          <div class="article-detail">
-            <div class="article-image"><img src=""></div>
-            <div class="article-title">
-              <h4>Web solution</h4>
-            </div>
-            <div class="article-content">Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.</div>
-          </div>
-        </div>
+        <div class="tab-containera">
 
-        <div class="article">
-          <div class="article-title">
-            <h3>Sample Accordion Menu <i>plus</i></h3>
+          <div class="tab-bar tab-black">
+            <button class="tab-bar-item tab-button tab-bar-item-active" onclick="changeTab(1)" id="tabBtn1">Tab
+              1</button>
+            <button class="tab-bar-item tab-button" onclick="changeTab(2)" id="tabBtn2">Tab 2</button>
+            <button class="tab-bar-item tab-button" onclick="changeTab(3)" id="tabBtn3">Tab 3</button>
           </div>
-          <div class="article-detail">
-            <div class="article-image"><img src=""></div>
-            <div class="article-title">
-              <h4>Web solution</h4>
-            </div>
-            <div class="article-content">Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.</div>
-          </div>
-        </div>
-      
 
-
-      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-        <div class="tab-bar tab-black">
-          <button class="tab-bar-item tab-button" onclick="">Tab 1</button>
-          <button class="tab-bar-item tab-button" onclick="">Tab 2</button>
-          <button class="tab-bar-item tab-button" onclick="">Tab 3</button>
-        </div>
-
-        <div id="tab1" class="tab-content">
-          <div class="tab-row">
-            <div class="img">
-              <img src="#" />
-            </div>
-            <div class="tab-description">
-              Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.
-            </div>
-          </div>
-          <div class="tab-row">
-            <div class="img">
-              <img src="#" />
-            </div>
-            <div class="tab-description">
-              Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.
-            </div>
-          </div>
-          <div class="tab-row">
-            <div class="img">
-              <img src="#" />
-            </div>
-            <div class="tab-description">
-              Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.
-            </div>
-          </div>
-          <div class="tab-row">
-            <div class="img">
-              <img src="#" />
-            </div>
-            <div class="tab-description">
-              Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.
-            </div>
-          </div>
-        </div>
-
-
-        <div id="tab2" class="tab-content">
-          <div class="tab-row">
-            <div class="img">
-              <img src="#" />
-            </div>
-            <div class="tab-description">
-              Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.
-            </div>
+          <div id="tab1" class="tab-content active">
             <div class="tab-row">
               <div class="img">
-                <img src="#" />
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
               <div class="tab-description">
                 Here is a description.Here is a description.Here is a description.Here is a
@@ -435,7 +402,7 @@
             </div>
             <div class="tab-row">
               <div class="img">
-                <img src="#" />
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
               <div class="tab-description">
                 Here is a description.Here is a description.Here is a description.Here is a
@@ -444,7 +411,16 @@
             </div>
             <div class="tab-row">
               <div class="img">
-                <img src="#" />
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
               <div class="tab-description">
                 Here is a description.Here is a description.Here is a description.Here is a
@@ -452,21 +428,14 @@
               </div>
             </div>
           </div>
-        </div>
 
 
-        <div id="tab3" class="tab-content">
-          <div class="tab-row">
-            <div class="img">
-              <img src="#" />
-            </div>
-            <div class="tab-description">
-              Here is a description.Here is a description.Here is a description.Here is a
-              description.Here is a description.
-            </div>
+          <div id="tab2" class="tab-content">
+            Tab content 2
+
             <div class="tab-row">
               <div class="img">
-                <img src="#" />
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
               <div class="tab-description">
                 Here is a description.Here is a description.Here is a description.Here is a
@@ -475,7 +444,7 @@
             </div>
             <div class="tab-row">
               <div class="img">
-                <img src="#" />
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
               <div class="tab-description">
                 Here is a description.Here is a description.Here is a description.Here is a
@@ -484,7 +453,16 @@
             </div>
             <div class="tab-row">
               <div class="img">
-                <img src="#" />
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
               </div>
               <div class="tab-description">
                 Here is a description.Here is a description.Here is a description.Here is a
@@ -492,28 +470,60 @@
               </div>
             </div>
           </div>
+          <div id="tab3" class="tab-content">
+            Tab content 3
+
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+            <div class="tab-row">
+              <div class="img">
+                <img src="./img/placeholder.svg" class="tab-content-img" />
+              </div>
+              <div class="tab-description">
+                Here is a description.Here is a description.Here is a description.Here is a
+                description.Here is a description.
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-        <img src="#" alt="" />
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-        <img src="#" alt="" />
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-        <img src="#" alt="" />
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-        <img src="#" alt="" />
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-        <img src="#" alt="" />
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-        <img src="#" alt="" />
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="logo-containera">
+          <img src="./img/netbean.png" alt="Netbean Logo" />
+          <img src="./img/krita.jpeg" alt="Krita Logo" />
+          <img src="./img/scirra.png" alt="Scirra Logo" />
+          <img src="./img/blender.png" alt="Blender Logo" />
+          <img src="./img/inkscape.jpeg" alt="inkscape Logo" />
+        </div>
       </div>
     </div>
 
@@ -544,11 +554,11 @@
             Chasy poulet tlkka masla JiJi wilil hahaha po kass tulalloo potatoo. bee do bee do bee do chasy tl aamoo!
           </p>
           <div class="social-media-list">
-            <a href="#"><i>Facebook</i></a>
-            <a href="#"><i>Google</i></a>
-            <a href="#"><i>X</i></a>
-            <a href="#"><i>Instegam</i></a>
-            <a href="#"><i>RSS</i></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-bg"><path fill="#527cc4" d="M0 0v24h24v-24h-24zm16 7h-1.923c-.616 0-1.077.252-1.077.889v1.111h3l-.239 3h-2.761v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-bg"><path fill="#e46145" d="M0 0v24h24v-24h-24zm8.667 16.667c-2.581 0-4.667-2.087-4.667-4.667s2.086-4.667 4.667-4.667c1.26 0 2.313.46 3.127 1.22l-1.267 1.22c-.347-.333-.954-.72-1.86-.72-1.593 0-2.893 1.32-2.893 2.947s1.3 2.947 2.893 2.947c1.847 0 2.54-1.327 2.647-2.013h-2.647v-1.6h4.406c.041.233.074.467.074.773 0 2.666-1.787 4.56-4.48 4.56zm11.333-4h-2v2h-1.333v-2h-2v-1.333h2v-2h1.333v2h2v1.333z"/></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-bg"><path fill="#00b0e2" d="M0 0v24h24v-24h-24zm18.862 9.237c.208 4.617-3.235 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.079-4.03 3.198-4.03.944 0 1.797.398 2.396 1.037.748-.147 1.451-.42 2.085-.796-.245.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.44.656-.997 1.234-1.638 1.697z"/></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-bg"><path fill="#f6679c" d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z"/></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-bg"><path fill="#fea501" d="M0 0v24h24v-24h-24zm6.168 20c-1.197 0-2.168-.969-2.168-2.165s.971-2.165 2.168-2.165 2.167.969 2.167 2.165-.97 2.165-2.167 2.165zm5.18 0c-.041-4.029-3.314-7.298-7.348-7.339v-3.207c5.814.041 10.518 4.739 10.56 10.546h-3.212zm5.441 0c-.021-7.063-5.736-12.761-12.789-12.792v-3.208c8.83.031 15.98 7.179 16 16h-3.211z"/></svg></a>
           </div>
         </div>
       </div>
@@ -599,7 +609,7 @@
         <div class="footer-card">
           <h3 class="footer-header-1 footer-bottom-style-4">Newsletter</h3>
           <div class="arrow-down border-top-color-style-4"></div>
-          <div class="description">
+          <div class="description2">
             <p>Minions Ipsum potatooo potatoooo uuhhh.
               Chasy poulet tlkka masla JiJi wilil hahaha po kass tulalloo potatoo. bee do bee do bee do chasy tl aamoo!
             </p>
